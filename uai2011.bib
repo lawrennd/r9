@@ -11,6 +11,7 @@
     end = {2011-07-17},
     address = {Barcelona, Spain},
     conference_url = {https://www.auai.org/uai2011/},
+    volume = {r9},
     conference_number = {27},
     published = {2026-10-04},
     firstpublished = {2011-07-14},
@@ -44,7 +45,7 @@ year = {2011}
 abstract = {Bayes-optimal behavior, while well-defined, is often difficult to achieve. Recent advances in the use of Monte-Carlo tree search (MCTS) have shown that it is possible to act near-optimally in Markov Decision Processes (MDPs) with very large or infinite state spaces. Bayes-optimal behavior in an unknown MDP is equivalent to optimal behavior in the known belief-space MDP, although the size of this belief-space MDP grows exponentially with the amount of history retained, and is potentially infinite. We show how an agent can use one particular MCTS algorithm, Forward Search Sparse Sampling (FSSS), in an efficient way to act nearly Bayes-optimally for all but a polynomial number of steps, assuming that FSSS can be used to act efficiently in any possible underlying MDP.},
 author = {Asmuth, John and Littman, Michael L.},
 pages = {36-43},
-title = {Learning is planning: near Bayes-optimal reinforcement learning via Monte-Carlo tree search},
+title = {Learning is planning: near {B}ayes-optimal reinforcement learning via {M}onte-{C}arlo tree search},
 year = {2011}
 }
 
@@ -132,7 +133,7 @@ year = {2011}
 abstract = {We propose a method called EDML for learning MAP parameters in binary Bayesian networks under incomplete data. The method assumes Beta priors and can be used to learn maximum likelihood parameters when the priors are uninformative. EDML exhibits interesting behaviors, especially when compared to EM. We introduce EDML, explain its origin, and study some of its properties both analytically and empirically.},
 author = {Choi, Arthur and Refaat, Khaled S. and Darwiche, Adnan},
 pages = {143-152},
-title = {EDML: A Method for Learning Parameters in Bayesian Networks},
+title = {EDML: A Method for Learning Parameters in {B}ayesian Networks},
 year = {2011}
 }
 
@@ -164,7 +165,7 @@ year = {2011}
 abstract = {The problem of learning the structure of Bayesian networks from complete discrete data with a limit on parent set size is considered. Learning is cast explicitly as an optimisation problem where the goal is to find a BN structure which maximises log marginal likelihood (BDe score). Integer programming, specifically the SCIP framework, is used to solve this optimisation problem. Acyclicity constraints are added to the integer program (IP) during solving in the form of cutting planes. Finding good cutting planes is the key to the success of the approach -the search for such cutting planes is effected using a sub-IP. Results show that this is a particularly fast method for exact BN learning.},
 author = {Cussens, James},
 pages = {181-188},
-title = {Bayesian network learning with cutting planes},
+title = {{B}ayesian network learning with cutting planes},
 year = {2011}
 }
 
@@ -204,7 +205,7 @@ year = {2011}
 abstract = {Bayesian priors offer a compact yet general means of incorporating domain knowledge into many learning tasks. The correctness of the Bayesian analysis and inference, however, largely depends on accuracy and correctness of these priors. PAC-Bayesian methods overcome this problem by providing bounds that hold regardless of the correctness of the prior distribution. This paper introduces the first PAC-Bayesian bound for the batch reinforcement learning problem with function approximation. We show how this bound can be used to perform model-selection in a transfer learning scenario. Our empirical results confirm that PAC-Bayesian policy evaluation is able to leverage prior distributions when they are informative and, unlike standard Bayesian RL approaches, ignore them when they are misleading.},
 author = {Fard, Mahdi MIlani and Pineau, Joelle and Szepesvari, Csaba},
 pages = {233-240},
-title = {PAC-Bayesian Policy Evaluation for Reinforcement Learning},
+title = {{PAC}-{B}ayesian Policy Evaluation for Reinforcement Learning},
 year = {2011}
 }
 
@@ -228,7 +229,7 @@ year = {2011}
 abstract = {Markov control algorithms that perform smooth, non-greedy updates of the policy have been shown to be very general and versatile, with policy gradient and Expectation Maximisation algorithms being particularly popular. For these algorithms, marginal inference of the reward weighted trajectory distribution is required to perform policy updates. We discuss a new exact inference algorithm for these marginals in the finite horizon case that is more efficient than the standard approach based on classical forward-backward recursions. We also provide a principled extension to infinite horizon Markov Decision Problems that explicitly accounts for an infinite horizon. This extension provides a novel algorithm for both policy gradients and Expectation Maximisation in infinite horizon problems.},
 author = {Furmston, Thomas and Barber, David},
 pages = {259-267},
-title = {Efficient Inference in Markov Control Problems},
+title = {Efficient Inference in {M}arkov Control Problems},
 year = {2011}
 }
 
@@ -324,7 +325,7 @@ year = {2011}
 abstract = {Bayesian optimization with Gaussian processes has become an increasingly popular tool in the machine learning community. It is efficient and can be used when very little is known about the objective function, making it popular in expensive black-box optimization scenarios. It uses Bayesian methods to sample the objective efficiently using an acquisition function which incorporates the model's estimate of the objective and the uncertainty at any given point. However, there are several different parameterized acquisition functions in the literature, and it is often unclear which one to use. Instead of using a single acquisition function, we adopt a portfolio of acquisition functions governed by an online multi-armed bandit strategy. We propose several portfolio strategies, the best of which we call GP-Hedge, and show that this method outperforms the best individual acquisition function. We also provide a theoretical bound on the algorithm's performance.},
 author = {Brochu, Eric and Hoffman, Matthew W. and de Freitas, Nando},
 pages = {365-384},
-title = {Portfolio Allocation for Bayesian Optimization},
+title = {Portfolio Allocation for {B}ayesian Optimization},
 year = {2011}
 }
 
@@ -340,7 +341,7 @@ year = {2011}
 abstract = {We show that the log-likelihood of several probabilistic graphical models is Lipschitz continuous with respect to the lp-norm of the parameters. We discuss several implications of Lipschitz parametrization. We present an upper bound of the Kullback-Leibler divergence that allows understanding methods that penalize the lp-norm of differences of parameters as the minimization of that upper bound. The expected log-likelihood is lower bounded by the negative lp-norm, which allows understanding the generalization ability of probabilistic models. The exponential of the negative lp-norm is involved in the lower bound of the Bayes error rate, which shows that it is reasonable to use parameters as features in algorithms that rely on metric spaces (e.g. classification, dimensionality reduction, clustering). Our results do not rely on specific algorithms for learning the structure or parameters. We show preliminary results for activity recognition and temporal segmentation.},
 author = {Honorio, Jean},
 pages = {395-402},
-title = {Lipschitz Parametrization of Probabilistic Graphical Models},
+title = {{L}ipschitz Parametrization of Probabilistic Graphical Models},
 year = {2011}
 }
 
@@ -412,7 +413,7 @@ year = {2011}
 abstract = {Computing maximum a posteriori (MAP) estimation in graphical models is an important inference problem with many applications. We present message-passing algorithms for quadratic programming (QP) formulations of MAP estimation for pairwise Markov random fields. In particular, we use the concave-convex procedure (CCCP) to obtain a locally optimal algorithm for the non-convex QP formulation. A similar technique is used to derive a globally convergent algorithm for the convex QP relaxation of MAP. We also show that a recently developed expectation-maximization (EM) algorithm for the QP formulation of MAP can be derived from the CCCP perspective. Experiments on synthetic and real-world problems confirm that our new approach is competitive with max-product and its variations. Compared with CPLEX, we achieve more than an order-of-magnitude speedup in solving optimally the convex QP relaxation.},
 author = {Kumar, Akshat and Zilberstein, Shlomo},
 pages = {485-492},
-title = {Message-Passing Algorithms for Quadratic Programming Formulations of MAP Estimation},
+title = {Message-Passing Algorithms for Quadratic Programming Formulations of {MAP} Estimation},
 year = {2011}
 }
 
@@ -436,7 +437,7 @@ year = {2011}
 abstract = {Marginal MAP problems are notoriously difficult tasks for graphical models. We derive a general variational framework for solving marginal MAP problems, in which we apply analogues of the Bethe, tree-reweighted, and mean field approximations. We then derive a "mixed" message passing algorithm and a convergent alternative using CCCP to solve the BP-type approximations. Theoretically, we give conditions under which the decoded solution is a global or local optimum, and obtain novel upper bounds on solutions. Experimentally we demonstrate that our algorithms outperform related approaches. We also show that EM and variational EM comprise a special case of our framework.},
 author = {Liu, Qiang and Ihler, Alexander T.},
 pages = {510-519},
-title = {Variational Algorithms for Marginal MAP},
+title = {Variational Algorithms for Marginal {MAP}},
 year = {2011}
 }
 
@@ -444,7 +445,7 @@ year = {2011}
 abstract = {We consider the problem of classification when inputs correspond to sets of vectors. This setting occurs in many problems such as the classification of pieces of mail containing several pages, of web sites with several sections or of images that have been pre-segmented into smaller regions. We propose generalizations of the restricted Boltzmann machine (RBM) that are appropriate in this context and explore how to incorporate different assumptions about the relationship between the input sets and the target class within the RBM. In experiments on standard multiple-instance learning datasets, we demonstrate the competitiveness of approaches based on RBMs and apply the proposed variants to the problem of incoming mail classification.},
 author = {Louradour, J{\'e}r{\^o}me and Larochelle, Hugo},
 pages = {520-536},
-title = {Classification of Sets using Restricted Boltzmann Machines},
+title = {Classification of Sets using Restricted {B}oltzmann Machines},
 year = {2011}
 }
 
@@ -460,7 +461,7 @@ year = {2011}
 abstract = {Previous work has shown that the problem of learning the optimal structure of a Bayesian network can be formulated as a shortest path finding problem in a graph and solved using A* search. In this paper, we improve the scalability of this approach by developing a memory-efficient heuristic search algorithm for learning the structure of a Bayesian network. Instead of using A*, we propose a frontier breadth-first branch and bound search that leverages the layered structure of the search graph of this problem so that no more than two layers of the graph, plus solution reconstruction information, need to be stored in memory at a time. To further improve scalability, the algorithm stores most of the graph in external memory, such as hard disk, when it does not fit in RAM. Experimental results show that the resulting algorithm solves significantly larger problems than the current state of the art.},
 author = {Malone, Brandon and Yuan, Changhe and Hansen, Eric A. and Bridges, Susan},
 pages = {545-554},
-title = {Improving the Scalability of Optimal Bayesian Network Learning with External-Memory Frontier Breadth-First Branch and Bound Search},
+title = {Improving the Scalability of Optimal {B}ayesian Network Learning with External-Memory Frontier Breadth-First Branch and Bound Search},
 year = {2011}
 }
 
@@ -492,7 +493,7 @@ year = {2011}
 abstract = {Conditional Restricted Boltzmann Machines (CRBMs) are rich probabilistic models that have recently been applied to a wide range of problems, including collaborative filtering, classification, and modeling motion capture data. While much progress has been made in training non-conditional RBMs, these algorithms are not applicable to conditional models and there has been almost no work on training and generating predictions from conditional RBMs for structured output problems. We first argue that standard Contrastive Divergence-based learning may not be suitable for training CRBMs. We then identify two distinct types of structured output prediction problems and propose an improved learning algorithm for each. The first problem type is one where the output space has arbitrary structure but the set of likely output configurations is relatively small, such as in multi-label classification. The second problem is one where the output space is arbitrarily structured but where the output space variability is much greater, such as in image denoising or pixel labeling. We show that the new learning algorithms can work much better than Contrastive Divergence on both types of problems.},
 author = {Mnih, Volodymyr and Larochelle, Hugo and Hinton, Geoffrey E.},
 pages = {580-588},
-title = {Conditional Restricted Boltzmann Machines for Structured Output Prediction},
+title = {Conditional Restricted {B}oltzmann Machines for Structured Output Prediction},
 year = {2011}
 }
 
@@ -532,7 +533,7 @@ year = {2011}
 abstract = {We present a new Markov chain Monte Carlo method for estimating posterior probabilities of structural features in Bayesian networks. The method draws samples from the posterior distribution of partial orders on the nodes; for each sampled partial order, the conditional probabilities of interest are computed exactly. We give both analytical and empirical results that suggest the superiority of the new method compared to previous methods, which sample either directed acyclic graphs or linear orders on the nodes.},
 author = {Niinimaki, Teppo and Parviainen, Pekka and Koivisto, Mikko},
 pages = {623-630},
-title = {Partial Order MCMC for Structure Discovery in Bayesian Networks},
+title = {Partial Order {MCMC} for Structure Discovery in {B}ayesian Networks},
 year = {2011}
 }
 
@@ -548,7 +549,7 @@ year = {2011}
 abstract = {We demonstrate a limitation of discounted expected utility, a standard approach for representing the preference to risk when future cost is discounted. Specifically, we provide an example of the preference of a decision maker that appears to be rational but cannot be represented with any discounted expected utility. A straightforward modification to discounted expected utility leads to inconsistent decision making over time. We will show that an iterated risk measure can represent the preference that cannot be represented by any discounted expected utility and that the decisions based on the iterated risk measure are consistent over time.},
 author = {Osogami, Takayuki},
 pages = {639-646},
-title = {Iterated risk measures for risk-sensitive Markov decision processes with discounted cost},
+title = {Iterated risk measures for risk-sensitive {M}arkov decision processes with discounted cost},
 year = {2011}
 }
 
@@ -556,7 +557,7 @@ year = {2011}
 abstract = {To overcome the \#P-hardness of computing/updating prices in logarithm market scoring rule-based (LMSR-based) combinatorial prediction markets, Chen et al. [5] recently used a simple Bayesian network to represent the prices of securities in combinatorial predictionmarkets for tournaments, and showed that two types of popular securities are structure preserving. In this paper, we significantly extend this idea by employing Bayesian networks in general combinatorial prediction markets. We reveal a very natural connection between LMSR-based combinatorial prediction markets and probabilistic belief aggregation,which leads to a complete characterization of all structure preserving securities for decomposable network structures. Notably, the main results by Chen et al. [5] are corollaries of our characterization. We then prove that in order for a very basic set of securities to be structure preserving, the graph of the Bayesian network must be decomposable. We also discuss some approximation techniques for securities that are not structure preserving.},
 author = {Pennock, David M. and Xia, Lirong},
 pages = {647-654},
-title = {Price Updating in Combinatorial Prediction Markets with Bayesian Networks},
+title = {Price Updating in Combinatorial Prediction Markets with {B}ayesian Networks},
 year = {2011}
 }
 
@@ -588,7 +589,7 @@ year = {2011}
 abstract = {Markov jump processes and continuous time Bayesian networks are important classes of continuous time dynamical systems. In this paper, we tackle the problem of inferring unobserved paths in these models by introducing a fast auxiliary variable Gibbs sampler. Our approach is based on the idea of uniformization, and sets up a Markov chain over paths by sampling a finite set of virtual jump times and then running a standard hidden Markov model forward filtering-backward sampling algorithm over states at the set of extant and virtual jump times. We demonstrate significant computational benefits over a state-of-the-art Gibbs sampler on a number of continuous time Bayesian networks.},
 author = {Rao, Vinayak and Teh, Yee Whye},
 pages = {685-692},
-title = {Fast MCMC sampling for Markov jump processes and continuous time Bayesian networks},
+title = {Fast {MCMC} sampling for {M}arkov jump processes and continuous time {B}ayesian networks},
 year = {2011}
 }
 
@@ -660,7 +661,7 @@ year = {2011}
 abstract = {Recent reports have described that learning Bayesian networks are highly sensitive to the chosen equivalent sample size (ESS) in the Bayesian Dirichlet equivalence uniform (BDeu). This sensitivity often engenders some unstable or undesirable results. This paper describes some asymptotic analyses of BDeu to explain the reasons for the sensitivity and its effects. Furthermore, this paper presents a proposal for a robust learning score for ESS by eliminating the sensitive factors from the approximation of log-BDeu.},
 author = {Ueno, Maomi},
 pages = {771-780},
-title = {Robust learning Bayesian networks for prior belief},
+title = {Robust learning {B}ayesian networks for prior belief},
 year = {2011}
 }
 
@@ -668,7 +669,7 @@ year = {2011}
 abstract = {We present a distributed anytime algorithm for performing MAP inference in graphical models. The problem is formulated as a linear programming relaxation over the edges of a graph. The resulting program has a constraint structure that allows application of the Dantzig-Wolfe decomposition principle. Subprograms are defined over individual edges and can be computed in a distributed manner. This accommodates solutions to graphs whose state space does not fit in memory. The decomposition master program is guaranteed to compute the optimal solution in a finite number of iterations, while the solution converges monotonically with each iteration. Formulating the MAP inference problem as a linear program allows additional (global) constraints to be defined; something not possible with message passing algorithms. Experimental results show that our algorithm's solution quality outperforms most current algorithms and it scales well to large problems.},
 author = {de Ven, Joop van and Ramos, Fabio},
 pages = {781-789},
-title = {Distributed Anytime MAP Inference},
+title = {Distributed Anytime {MAP} Inference},
 year = {2011}
 }
 
@@ -700,7 +701,7 @@ year = {2011}
 abstract = {We face network data from various sources, such as protein interactions and online social networks. A critical problem is to model network interactions and identify latent groups of network nodes. This problem is challenging due to many reasons. For example, the network nodes are interdependent instead of independent of each other, and the data are known to be very noisy (e.g., missing edges). To address these challenges, we propose a new relational model for network data, Sparse Matrix-variate Gaussian process Blockmodel (SMGB). Our model generalizes popular bilinear generative models and captures nonlinear network interactions using a matrix-variate Gaussian process with latent membership variables. We also assign sparse prior distributions on the latent membership variables to learn sparse group assignments for individual network nodes. To estimate the latent variables efficiently from data, we develop an efficient variational expectation maximization method. We compared our approaches with several state-of-the-art network models on both synthetic and real-world network datasets. Experimental results demonstrate SMGBs outperform the alternative approaches in terms of discovering latent classes or predicting unknown interactions.},
 author = {Yan, Feng and Xu, Zenglin and (Alan)Qi, Yuan},
 pages = {823-830},
-title = {Sparse matrix-variate Gaussian process blockmodels for network modeling},
+title = {Sparse matrix-variate {G}aussian process blockmodels for network modeling},
 year = {2011}
 }
 
@@ -740,7 +741,7 @@ year = {2011}
 abstract = {Approximate Bayesian inference is NP-hard. Dagum and Luby defined the Local Variance Bound (LVB) to measure the approximation hardness of Bayesian inference on Bayesian networks, assuming the networks model strictly positive joint probability distributions, i.e. zero probabilities are not permitted. This paper introduces the k-test to measure the approximation hardness of inference on Bayesian networks with deterministic causalities in the probability distribution, i.e. when zero conditional probabilities are permitted. Approximation by stochastic sampling is a widely-used inference method that is known to suffer from inefficiencies due to sample rejection. The k-test predicts when rejection rates of stochastic sampling a Bayesian network will be low, modest, high, or when sampling is intractable.},
 author = {Yu, Haohai and van Engelen, Robert A.},
 pages = {867-876},
-title = {Measuring the Hardness of Stochastic Sampling on Bayesian Networks with Deterministic Causalities: the k-Test},
+title = {Measuring the Hardness of Stochastic Sampling on {B}ayesian Networks with Deterministic Causalities: the k-Test},
 year = {2011}
 }
 
